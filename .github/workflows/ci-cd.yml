@@ -31,7 +31,7 @@ jobs:
       - name: Clonar repositório de manifests
         uses: actions/checkout@v3
         with:
-          repository: seu-usuario/hello-manifests
+          repository: mateoclima/hello-manifests
           token: ${{ secrets.GITHUB_TOKEN }} # ou ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Atualizar Deployment com nova imagem
